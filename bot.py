@@ -11,7 +11,7 @@ from telegram.ext import (
 )
 
 # ─── تنظیمات ───────────────────────────────────────────────────────────────
-BOT_TOKEN = os.environ.get("BOT_ASLI_TOKEN", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 ADMIN_ID   = 6493854621         # آیدی عددی ادمین تلگرام
 CARD_NUMBER = "6037-2645-5555-4444"  # شماره کارت برای پرداخت
 CARD_OWNER  = "نام صاحب کارت"
